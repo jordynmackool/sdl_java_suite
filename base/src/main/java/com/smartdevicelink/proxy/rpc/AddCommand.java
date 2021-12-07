@@ -114,7 +114,7 @@ import java.util.List;
  *          <td>N</td>
  *          <td></td>
  *          <td>
- *             @since SmartDeviceLink 7.1.0
+ *             - since SmartDeviceLink 7.1.0
  *          </td>
  *      </tr>
  *  </table>
