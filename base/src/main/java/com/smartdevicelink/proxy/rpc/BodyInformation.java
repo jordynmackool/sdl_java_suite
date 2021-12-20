@@ -109,7 +109,7 @@ import java.util.List;
  * 			<td>The information about the park brake: - true, if active - false if not.</td>
  * 			<td>
  * 			  SmartDeviceLink 2.0.0
- * 				@property-deprecated in SmartDeviceLink 7.1.0
+ * 			  @property-deprecated in SmartDeviceLink 7.1.0
  * 			</td>
  * 		</tr>
  * 		<tr>
@@ -118,7 +118,7 @@ import java.util.List;
  * 			<td>true</td>
  * 			<td>References signal "DrStatRr_B_Actl".</td>
  * 			<td>
-          SmartDeviceLink 2.0.0
+                                        SmartDeviceLink 2.0.0
  * 				@property-deprecated in SmartDeviceLink 7.1.0
  * 			</td>
  * 		</tr>
@@ -165,39 +165,39 @@ public class BodyInformation extends RPCStruct {
     public static final String KEY_IGNITION_STABLE_STATUS = "ignitionStableStatus";
     public static final String KEY_IGNITION_STATUS = "ignitionStatus";
     /**
-     * @since SmartDeviceLink 2.0.0
+     * SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public static final String KEY_DRIVER_DOOR_AJAR = "driverDoorAjar";
     /**
-     * @since SmartDeviceLink 2.0.0
+     * SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public static final String KEY_PASSENGER_DOOR_AJAR = "passengerDoorAjar";
     /**
-     * @since SmartDeviceLink 2.0.0
+     * SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public static final String KEY_REAR_LEFT_DOOR_AJAR = "rearLeftDoorAjar";
     /**
-     * @since SmartDeviceLink 2.0.0
+     * SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public static final String KEY_REAR_RIGHT_DOOR_AJAR = "rearRightDoorAjar";
     /**
-     * @since SmartDeviceLink 7.1.0
+     * SmartDeviceLink 7.1.0
      */
     public static final String KEY_DOOR_STATUSES = "doorStatuses";
     /**
-     * @since SmartDeviceLink 7.1.0
+     * SmartDeviceLink 7.1.0
      */
     public static final String KEY_GATE_STATUSES = "gateStatuses";
     /**
-     * @since SmartDeviceLink 7.1.0
+     * SmartDeviceLink 7.1.0
      */
     public static final String KEY_ROOF_STATUSES = "roofStatuses";
 
