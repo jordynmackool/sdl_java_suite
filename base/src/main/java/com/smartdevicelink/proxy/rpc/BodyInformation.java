@@ -328,7 +328,7 @@ public class BodyInformation extends RPCStruct {
      * Sets the rearRightDoorAjar.
      *
      * @param rearRightDoorAjar References signal "DrStatRr_B_Actl". Deprecated starting with RPC Spec 7.1.0.
-     * @since SmartDeviceLink 2.0.0
+     * SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
@@ -341,7 +341,7 @@ public class BodyInformation extends RPCStruct {
      * Gets the rearRightDoorAjar.
      *
      * @return Boolean References signal "DrStatRr_B_Actl". Deprecated starting with RPC Spec 7.1.0.
-     * @since SmartDeviceLink 2.0.0
+     * SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
@@ -354,7 +354,7 @@ public class BodyInformation extends RPCStruct {
      *
      * @param doorStatuses Provides status for doors if Ajar/Closed/Locked
      * {"array_min_size": 0, "array_max_size": 100}
-     * @since SmartDeviceLink 7.1.0
+     * SmartDeviceLink 7.1.0
      */
     public BodyInformation setDoorStatuses(List<DoorStatus> doorStatuses) {
         setValue(KEY_DOOR_STATUSES, doorStatuses);
@@ -366,7 +366,7 @@ public class BodyInformation extends RPCStruct {
      *
      * @return List<DoorStatus> Provides status for doors if Ajar/Closed/Locked
      * {"array_min_size": 0, "array_max_size": 100}
-     * @since SmartDeviceLink 7.1.0
+     * SmartDeviceLink 7.1.0
      */
     @SuppressWarnings("unchecked")
     public List<DoorStatus> getDoorStatuses() {
@@ -378,7 +378,7 @@ public class BodyInformation extends RPCStruct {
      *
      * @param gateStatuses Provides status for trunk/hood/etc. if Ajar/Closed/Locked
      * {"array_min_size": 0, "array_max_size": 100}
-     * @since SmartDeviceLink 7.1.0
+     * SmartDeviceLink 7.1.0
      */
     public BodyInformation setGateStatuses(List<GateStatus> gateStatuses) {
         setValue(KEY_GATE_STATUSES, gateStatuses);
@@ -390,7 +390,7 @@ public class BodyInformation extends RPCStruct {
      *
      * @return List<GateStatus> Provides status for trunk/hood/etc. if Ajar/Closed/Locked
      * {"array_min_size": 0, "array_max_size": 100}
-     * @since SmartDeviceLink 7.1.0
+     * SmartDeviceLink 7.1.0
      */
     @SuppressWarnings("unchecked")
     public List<GateStatus> getGateStatuses() {
@@ -403,7 +403,7 @@ public class BodyInformation extends RPCStruct {
      * @param roofStatuses Provides status for roof/convertible roof/sunroof/moonroof etc., if Closed/Ajar/Removed
      * etc.
      * {"array_min_size": 0, "array_max_size": 100}
-     * @since SmartDeviceLink 7.1.0
+     * SmartDeviceLink 7.1.0
      */
     public BodyInformation setRoofStatuses(List<RoofStatus> roofStatuses) {
         setValue(KEY_ROOF_STATUSES, roofStatuses);
@@ -416,7 +416,7 @@ public class BodyInformation extends RPCStruct {
      * @return List<RoofStatus> Provides status for roof/convertible roof/sunroof/moonroof etc., if Closed/Ajar/Removed
      * etc.
      * {"array_min_size": 0, "array_max_size": 100}
-     * @since SmartDeviceLink 7.1.0
+     * SmartDeviceLink 7.1.0
      */
     @SuppressWarnings("unchecked")
     public List<RoofStatus> getRoofStatuses() {
