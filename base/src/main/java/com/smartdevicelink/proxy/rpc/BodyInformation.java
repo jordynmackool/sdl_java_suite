@@ -108,7 +108,7 @@ import java.util.List;
  * 			<td>true</td>
  * 			<td>The information about the park brake: - true, if active - false if not.</td>
  * 			<td>
- * 			    SmartDeviceLink 2.0.0
+ * 			  SmartDeviceLink 2.0.0
  * 				@property-deprecated in SmartDeviceLink 7.1.0
  * 			</td>
  * 		</tr>
@@ -118,7 +118,7 @@ import java.util.List;
  * 			<td>true</td>
  * 			<td>References signal "DrStatRr_B_Actl".</td>
  * 			<td>
-                SmartDeviceLink 2.0.0
+          SmartDeviceLink 2.0.0
  * 				@property-deprecated in SmartDeviceLink 7.1.0
  * 			</td>
  * 		</tr>
@@ -157,7 +157,7 @@ import java.util.List;
  * @see SubscribeVehicleData
  * @see GetVehicleData
  * @see OnVehicleData
- * @since SmartDeviceLink 2.0
+ * SmartDeviceLink 2.0
  */
 
 public class BodyInformation extends RPCStruct {
