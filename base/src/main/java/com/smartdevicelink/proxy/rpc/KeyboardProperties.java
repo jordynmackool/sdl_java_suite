@@ -107,7 +107,7 @@ import java.util.List;
  * 			<td>KeyboardInputMask</td>
  * 			<td>false</td>
  * 			<td>
- * 				@since SmartDeviceLink 7.1.0
+ * 				SmartDeviceLink 7.1.0
  * 			</td>
  * 			<td>Allows an app to mask entered characters on HMI</td>
  * 		</tr>
@@ -116,7 +116,7 @@ import java.util.List;
  * 			<td>List<String></td>
  * 			<td>false</td>
  * 			<td>
- * 				@since SmartDeviceLink 7.1.0
+ * 				SmartDeviceLink 7.1.0
  * 			</td>
  * 			<td>
  * 				Array of special characters to show in customizable keys. If omitted, keyboard will show default special characters 
@@ -125,7 +125,7 @@ import java.util.List;
  * 		</tr>
  *  </table>
  *
- * @since SmartDeviceLink 3.0
+ *  SmartDeviceLink 3.0
  */
 
 public class KeyboardProperties extends RPCStruct {
