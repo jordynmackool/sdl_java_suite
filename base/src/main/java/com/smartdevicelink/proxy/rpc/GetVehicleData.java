@@ -112,7 +112,7 @@ import java.util.Hashtable;
  *                 <td>N</td>
  *                 <td>Subscribable</td>
  * 			<td>
- * 				@since SmartDeviceLink 2.0.0
+ * 				SmartDeviceLink 2.0.0
  * 				@property-deprecated in SmartDeviceLink 7.1.0
  * 			</td>
  * 		</tr>
@@ -279,7 +279,7 @@ import java.util.Hashtable;
  *          <td>N</td>
  *          <td></td>
  *          <td>
- *              @since SmartDeviceLink 7.1.0
+ *              SmartDeviceLink 7.1.0
  *          </td>
  *      </tr>
  *      <tr>
@@ -289,7 +289,7 @@ import java.util.Hashtable;
  *          <td>N</td>
  *          <td></td>
  *          <td>
- *          @since SmartDeviceLink 7.1.0
+ *          SmartDeviceLink 7.1.0
  *          </td>
  *      </tr>
  * 		</table>
@@ -311,7 +311,7 @@ import java.util.Hashtable;
  *
  * @see SubscribeVehicleData
  * @see UnsubscribeVehicleData
- * @since SmartDeviceLink 2.0
+ * SmartDeviceLink 2.0
  */
 public class GetVehicleData extends RPCRequest {
     public static final String KEY_SPEED = "speed";
