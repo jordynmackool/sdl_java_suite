@@ -99,7 +99,7 @@ import java.util.List;
  * 			<td>The information about the park brake: - true, if active - false if not.</td>
  * 			<td>
  * 				SmartDeviceLink 2.0.0
- * 				@property-deprecated in SmartDeviceLink 7.1.0
+ * 				property-deprecated in SmartDeviceLink 7.1.0
  * 			</td>
  * 		</tr>
  * 		<tr>
@@ -109,7 +109,7 @@ import java.util.List;
  * 			<td>The information about the park brake: - true, if active - false if not.</td>
  * 			<td>
  * 			  SmartDeviceLink 2.0.0
- * 			  @property-deprecated in SmartDeviceLink 7.1.0
+ * 			  property-deprecated in SmartDeviceLink 7.1.0
  * 			</td>
  * 		</tr>
  * 		<tr>
@@ -117,9 +117,8 @@ import java.util.List;
  * 			<td>Boolean</td>
  * 			<td>true</td>
  * 			<td>References signal "DrStatRr_B_Actl".</td>
- * 			<td>
-          SmartDeviceLink 2.0.0
- * 				@property-deprecated in SmartDeviceLink 7.1.0
+ * 			<td> SmartDeviceLink 2.0.0
+ * 				property-deprecated in SmartDeviceLink 7.1.0
  * 			</td>
  * 		</tr>
  * 		<tr>
@@ -166,25 +165,25 @@ public class BodyInformation extends RPCStruct {
     public static final String KEY_IGNITION_STATUS = "ignitionStatus";
     /**
      * SmartDeviceLink 2.0.0
-     * @deprecated in SmartDeviceLink 7.1.0
+     * deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public static final String KEY_DRIVER_DOOR_AJAR = "driverDoorAjar";
     /**
      * SmartDeviceLink 2.0.0
-     * @deprecated in SmartDeviceLink 7.1.0
+     * deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public static final String KEY_PASSENGER_DOOR_AJAR = "passengerDoorAjar";
     /**
      * SmartDeviceLink 2.0.0
-     * @deprecated in SmartDeviceLink 7.1.0
+     * deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public static final String KEY_REAR_LEFT_DOOR_AJAR = "rearLeftDoorAjar";
     /**
      * SmartDeviceLink 2.0.0
-     * @deprecated in SmartDeviceLink 7.1.0
+     * deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public static final String KEY_REAR_RIGHT_DOOR_AJAR = "rearRightDoorAjar";
@@ -254,7 +253,7 @@ public class BodyInformation extends RPCStruct {
      *
      * @param driverDoorAjar References signal "DrStatDrv_B_Actl". Deprecated starting with RPC Spec 7.1.0.
      * SmartDeviceLink 2.0.0
-     * @deprecated in SmartDeviceLink 7.1.0
+     * deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public BodyInformation setDriverDoorAjar(Boolean driverDoorAjar) {
@@ -267,7 +266,7 @@ public class BodyInformation extends RPCStruct {
      *
      * @return Boolean References signal "DrStatDrv_B_Actl". Deprecated starting with RPC Spec 7.1.0.
      * SmartDeviceLink 2.0.0
-     * @deprecated in SmartDeviceLink 7.1.0
+     * deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public Boolean getDriverDoorAjar() {
@@ -279,7 +278,7 @@ public class BodyInformation extends RPCStruct {
      *
      * @param passengerDoorAjar References signal "DrStatPsngr_B_Actl". Deprecated starting with RPC Spec 7.1.0.
      * SmartDeviceLink 2.0.0
-     * @deprecated in SmartDeviceLink 7.1.0
+     * deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public BodyInformation setPassengerDoorAjar(Boolean passengerDoorAjar) {
@@ -292,7 +291,7 @@ public class BodyInformation extends RPCStruct {
      *
      * @return Boolean References signal "DrStatPsngr_B_Actl". Deprecated starting with RPC Spec 7.1.0.
      * SmartDeviceLink 2.0.0
-     * @deprecated in SmartDeviceLink 7.1.0
+     * deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public Boolean getPassengerDoorAjar() {
@@ -304,7 +303,7 @@ public class BodyInformation extends RPCStruct {
      *
      * @param rearLeftDoorAjar References signal "DrStatRl_B_Actl". Deprecated starting with RPC Spec 7.1.0.
      * SmartDeviceLink 2.0.0
-     * @deprecated in SmartDeviceLink 7.1.0
+     * deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public BodyInformation setRearLeftDoorAjar(Boolean rearLeftDoorAjar) {
@@ -317,7 +316,7 @@ public class BodyInformation extends RPCStruct {
      *
      * @return Boolean References signal "DrStatRl_B_Actl". Deprecated starting with RPC Spec 7.1.0.
      * SmartDeviceLink 2.0.0
-     * @deprecated in SmartDeviceLink 7.1.0
+     * deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public Boolean getRearLeftDoorAjar() {
@@ -329,7 +328,7 @@ public class BodyInformation extends RPCStruct {
      *
      * @param rearRightDoorAjar References signal "DrStatRr_B_Actl". Deprecated starting with RPC Spec 7.1.0.
      * SmartDeviceLink 2.0.0
-     * @deprecated in SmartDeviceLink 7.1.0
+     * deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public BodyInformation setRearRightDoorAjar(Boolean rearRightDoorAjar) {
@@ -342,7 +341,7 @@ public class BodyInformation extends RPCStruct {
      *
      * @return Boolean References signal "DrStatRr_B_Actl". Deprecated starting with RPC Spec 7.1.0.
      * SmartDeviceLink 2.0.0
-     * @deprecated in SmartDeviceLink 7.1.0
+     * deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
     public Boolean getRearRightDoorAjar() {
