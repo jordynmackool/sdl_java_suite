@@ -124,9 +124,9 @@ import java.util.List;
  * 		<tr>
  * 			<td>doorStatuses</td>
  * 			<td>List<DoorStatus></td>
- * 			<td>Provides status for doors if Ajar/Closed/Locked</td>
- * 			<td>N</td>
- * 			<td>{"array_min_size": 0, "array_max_size": 100}</td>
+            <td>False</td>
+ * 			<td>Provides status for doors if Ajar/Closed/Locked
+ * 			{"array_min_size": 0, "array_max_size": 100}</td>
  * 			<td>
  * 				SmartDeviceLink 7.1.0
  * 			</td>
@@ -134,9 +134,9 @@ import java.util.List;
  * 		<tr>
  * 			<td>gateStatuses</td>
  * 			<td>List<GateStatus></td>
- * 			<td>Provides status for trunk/hood/etc. if Ajar/Closed/Locked</td>
- * 			<td>N</td>
- * 			<td>{"array_min_size": 0, "array_max_size": 100}</td>
+            <td>False</td>
+ * 			<td>Provides status for trunk/hood/etc. if Ajar/Closed/Locked
+ * 			{"array_min_size": 0, "array_max_size": 100}</td>
  * 			<td>
  * 				SmartDeviceLink 7.1.0
  * 			</td>
@@ -144,8 +144,8 @@ import java.util.List;
  * 		<tr>
  * 			<td>roofStatuses</td>
  * 			<td>List<RoofStatus></td>
+            <td>False</td>
  * 			<td>Provides status for roof/convertible roof/sunroof/moonroof etc., if Closed/Ajar/Removedetc.</td>
- * 			<td>N</td>
  * 			<td>{"array_min_size": 0, "array_max_size": 100}</td>
  * 			<td>
  * 				SmartDeviceLink 7.1.0
