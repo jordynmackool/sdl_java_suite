@@ -118,7 +118,7 @@ import java.util.List;
  * 			<td>true</td>
  * 			<td>References signal "DrStatRr_B_Actl".</td>
  * 			<td>
-                                        SmartDeviceLink 2.0.0
+          SmartDeviceLink 2.0.0
  * 				@property-deprecated in SmartDeviceLink 7.1.0
  * 			</td>
  * 		</tr>
@@ -253,7 +253,7 @@ public class BodyInformation extends RPCStruct {
      * Sets the driverDoorAjar.
      *
      * @param driverDoorAjar References signal "DrStatDrv_B_Actl". Deprecated starting with RPC Spec 7.1.0.
-     * @since SmartDeviceLink 2.0.0
+     * SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
@@ -266,7 +266,7 @@ public class BodyInformation extends RPCStruct {
      * Gets the driverDoorAjar.
      *
      * @return Boolean References signal "DrStatDrv_B_Actl". Deprecated starting with RPC Spec 7.1.0.
-     * @since SmartDeviceLink 2.0.0
+     * SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
@@ -278,7 +278,7 @@ public class BodyInformation extends RPCStruct {
      * Sets the passengerDoorAjar.
      *
      * @param passengerDoorAjar References signal "DrStatPsngr_B_Actl". Deprecated starting with RPC Spec 7.1.0.
-     * @since SmartDeviceLink 2.0.0
+     * SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
@@ -291,7 +291,7 @@ public class BodyInformation extends RPCStruct {
      * Gets the passengerDoorAjar.
      *
      * @return Boolean References signal "DrStatPsngr_B_Actl". Deprecated starting with RPC Spec 7.1.0.
-     * @since SmartDeviceLink 2.0.0
+     * SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
@@ -303,7 +303,7 @@ public class BodyInformation extends RPCStruct {
      * Sets the rearLeftDoorAjar.
      *
      * @param rearLeftDoorAjar References signal "DrStatRl_B_Actl". Deprecated starting with RPC Spec 7.1.0.
-     * @since SmartDeviceLink 2.0.0
+     * SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
@@ -316,7 +316,7 @@ public class BodyInformation extends RPCStruct {
      * Gets the rearLeftDoorAjar.
      *
      * @return Boolean References signal "DrStatRl_B_Actl". Deprecated starting with RPC Spec 7.1.0.
-     * @since SmartDeviceLink 2.0.0
+     * SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
