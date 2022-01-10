@@ -145,8 +145,8 @@ import java.util.List;
  * 			<td>roofStatuses</td>
  * 			<td>List<RoofStatus></td>
             <td>False</td>
- * 			<td>Provides status for roof/convertible roof/sunroof/moonroof etc., if Closed/Ajar/Removedetc.</td>
- * 			<td>{"array_min_size": 0, "array_max_size": 100}</td>
+ * 			<td>Provides status for roof/convertible roof/sunroof/moonroof etc., if Closed/Ajar/Removedetc.
+ * 			{"array_min_size": 0, "array_max_size": 100}</td>
  * 			<td>
  * 				SmartDeviceLink 7.1.0
  * 			</td>
