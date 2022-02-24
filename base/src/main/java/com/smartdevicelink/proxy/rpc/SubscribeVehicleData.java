@@ -120,7 +120,7 @@ import java.util.Hashtable;
  *                 <td>N</td>
  *                 <td>Subscribable</td>
  * 			<td>
- * 				@since SmartDeviceLink 2.0.0
+ * 				SmartDeviceLink 2.0.0
  * 				@property-deprecated in SmartDeviceLink 7.1.0
  * 			</td>
  * 		</tr>
@@ -318,7 +318,7 @@ import java.util.Hashtable;
  *          <td>N</td>
  *          <td></td>
  *          <td>
- *              @since SmartDeviceLink 7.1.0
+ *              SmartDeviceLink 7.1.0
  *          </td>
  *      </tr>
  * 		<tr>
@@ -328,7 +328,7 @@ import java.util.Hashtable;
  * 		    <td>N</td>
  * 		    <td></td>
  * 		    <td>
- * 		    @since SmartDeviceLink 7.1.0
+ * 		     SmartDeviceLink 7.1.0
  * 		    </td>
  * 		</tr>
  *   </table>
@@ -348,12 +348,12 @@ import java.util.Hashtable;
  *
  * @see UnsubscribeVehicleData
  * @see GetVehicleData
- * @since SmartDeviceLink 2.0
+ *  SmartDeviceLink 2.0
  */
 public class SubscribeVehicleData extends RPCRequest {
     public static final String KEY_RPM = "rpm";
     /**
-     * @since SmartDeviceLink 2.0.0
+     *  SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
@@ -398,11 +398,11 @@ public class SubscribeVehicleData extends RPCRequest {
     public static final String KEY_FUEL_LEVEL_STATE = "fuelLevel_State";
     public static final String KEY_STABILITY_CONTROLS_STATUS = "stabilityControlsStatus";
     /**
-     * @since SmartDeviceLink 7.1.0
+     *  SmartDeviceLink 7.1.0
      */
     public static final String KEY_CLIMATE_DATA = "climateData";
     /**
-     * @since SmartDeviceLink 7.1.0
+     *  SmartDeviceLink 7.1.0
      */
     public static final String KEY_SEAT_OCCUPANCY = "seatOccupancy";
 
@@ -555,7 +555,7 @@ public class SubscribeVehicleData extends RPCRequest {
      *
      * @param externalTemperature The external temperature in degrees celsius. This parameter is deprecated starting RPC
      * Spec 7.1.0, please see climateData.
-     * @since SmartDeviceLink 2.0.0
+     *  SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
@@ -569,7 +569,7 @@ public class SubscribeVehicleData extends RPCRequest {
      *
      * @return Boolean The external temperature in degrees celsius. This parameter is deprecated starting RPC
      * Spec 7.1.0, please see climateData.
-     * @since SmartDeviceLink 2.0.0
+     *  SmartDeviceLink 2.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
@@ -581,7 +581,7 @@ public class SubscribeVehicleData extends RPCRequest {
      * Sets the gearStatus.
      *
      * @param gearStatus See GearStatus
-     * @since SmartDeviceLink 7.0.0
+     *  SmartDeviceLink 7.0.0
      */
     public SubscribeVehicleData setGearStatus(Boolean gearStatus) {
         setParameters(KEY_GEAR_STATUS, gearStatus);
@@ -592,7 +592,7 @@ public class SubscribeVehicleData extends RPCRequest {
      * Gets the gearStatus.
      *
      * @return Boolean See GearStatus
-     * @since SmartDeviceLink 7.0.0
+     *  SmartDeviceLink 7.0.0
      */
     public Boolean getGearStatus() {
         return getBoolean(KEY_GEAR_STATUS);
@@ -911,7 +911,7 @@ public class SubscribeVehicleData extends RPCRequest {
      *
      * @param fuelRange The fuel type, estimated range in KM, fuel level/capacity and fuel level state for the
      *                  vehicle. See struct FuelRange for details.
-     * @since SmartDeviceLink 5.0.0
+     *  SmartDeviceLink 5.0.0
      */
     public SubscribeVehicleData setFuelRange(Boolean fuelRange) {
         setParameters(KEY_FUEL_RANGE, fuelRange);
@@ -923,7 +923,7 @@ public class SubscribeVehicleData extends RPCRequest {
      *
      * @return Boolean The fuel type, estimated range in KM, fuel level/capacity and fuel level state for the
      * vehicle. See struct FuelRange for details.
-     * @since SmartDeviceLink 5.0.0
+     *  SmartDeviceLink 5.0.0
      */
     public Boolean getFuelRange() {
         return getBoolean(KEY_FUEL_RANGE);
@@ -1010,7 +1010,7 @@ public class SubscribeVehicleData extends RPCRequest {
      * Sets the windowStatus.
      *
      * @param windowStatus See WindowStatus
-     * @since SmartDeviceLink 7.0.0
+     *  SmartDeviceLink 7.0.0
      */
     public SubscribeVehicleData setWindowStatus(Boolean windowStatus) {
         setParameters(KEY_WINDOW_STATUS, windowStatus);
@@ -1021,7 +1021,7 @@ public class SubscribeVehicleData extends RPCRequest {
      * Gets the windowStatus.
      *
      * @return Boolean See WindowStatus
-     * @since SmartDeviceLink 7.0.0
+     *  SmartDeviceLink 7.0.0
      */
     public Boolean getWindowStatus() {
         return getBoolean(KEY_WINDOW_STATUS);
@@ -1031,7 +1031,7 @@ public class SubscribeVehicleData extends RPCRequest {
      * Sets the handsOffSteering.
      *
      * @param handsOffSteering To indicate whether driver hands are off the steering wheel
-     * @since SmartDeviceLink 7.0.0
+     *  SmartDeviceLink 7.0.0
      */
     public SubscribeVehicleData setHandsOffSteering(Boolean handsOffSteering) {
         setParameters(KEY_HANDS_OFF_STEERING, handsOffSteering);
@@ -1042,7 +1042,7 @@ public class SubscribeVehicleData extends RPCRequest {
      * Gets the handsOffSteering.
      *
      * @return Boolean To indicate whether driver hands are off the steering wheel
-     * @since SmartDeviceLink 7.0.0
+     *  SmartDeviceLink 7.0.0
      */
     public Boolean getHandsOffSteering() {
         return getBoolean(KEY_HANDS_OFF_STEERING);
@@ -1052,7 +1052,7 @@ public class SubscribeVehicleData extends RPCRequest {
      * Gets the stabilityControlsStatus.
      *
      * @return Boolean See StabilityControlsStatus
-     * @since SmartDeviceLink 7.0.0
+     *  SmartDeviceLink 7.0.0
      */
     public Boolean getStabilityControlsStatus() {
         return getBoolean(KEY_STABILITY_CONTROLS_STATUS);
@@ -1062,7 +1062,7 @@ public class SubscribeVehicleData extends RPCRequest {
      * Sets the stabilityControlsStatus.
      *
      * @param stabilityControlsStatus See StabilityControlsStatus
-     * @since SmartDeviceLink 7.0.0
+     *  SmartDeviceLink 7.0.0
      */
     public SubscribeVehicleData setStabilityControlsStatus(Boolean stabilityControlsStatus) {
         setParameters(KEY_STABILITY_CONTROLS_STATUS, stabilityControlsStatus);
@@ -1073,7 +1073,7 @@ public class SubscribeVehicleData extends RPCRequest {
      * Sets the climateData.
      *
      * @param climateData See ClimateData
-     * @since SmartDeviceLink 7.1.0
+     *  SmartDeviceLink 7.1.0
      */
     public SubscribeVehicleData setClimateData(Boolean climateData) {
         setParameters(KEY_CLIMATE_DATA, climateData);
@@ -1084,7 +1084,7 @@ public class SubscribeVehicleData extends RPCRequest {
      * Gets the climateData.
      *
      * @return Boolean See ClimateData
-     * @since SmartDeviceLink 7.1.0
+     *  SmartDeviceLink 7.1.0
      */
     public Boolean getClimateData() {
         return getBoolean(KEY_CLIMATE_DATA);
@@ -1094,7 +1094,7 @@ public class SubscribeVehicleData extends RPCRequest {
      * Sets the seatOccupancy.
      *
      * @param seatOccupancy See SeatOccupancy
-     * @since SmartDeviceLink 7.1.0
+     *  SmartDeviceLink 7.1.0
      */
     public SubscribeVehicleData setSeatOccupancy(Boolean seatOccupancy) {
         setParameters(KEY_SEAT_OCCUPANCY, seatOccupancy);
@@ -1105,7 +1105,7 @@ public class SubscribeVehicleData extends RPCRequest {
      * Gets the seatOccupancy.
      *
      * @return Boolean See SeatOccupancy
-     * @since SmartDeviceLink 7.1.0
+     *  SmartDeviceLink 7.1.0
      */
     public Boolean getSeatOccupancy() {
         return getBoolean(KEY_SEAT_OCCUPANCY);
