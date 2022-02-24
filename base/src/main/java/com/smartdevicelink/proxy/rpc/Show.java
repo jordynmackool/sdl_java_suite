@@ -121,7 +121,7 @@ import java.util.List;
  *                 <td>N</td>
  * 			<td>{"string_min_length": 0, "string_max_length": 500}</td>
  * 			<td>
- * 			    @since SmartDeviceLink 1.0.0
+ * 			    SmartDeviceLink 1.0.0
  * 			    @property-deprecated in SmartDeviceLink 7.1.0
  * 			</td>
  * 		</tr>
@@ -191,7 +191,7 @@ import java.util.List;
  *
  * @see Alert
  * @see SetMediaClockTimer
- * @since SmartDeviceLink 1.0
+ * SmartDeviceLink 1.0
  */
 public class Show extends RPCRequest {
     public static final String KEY_GRAPHIC = "graphic";
@@ -202,7 +202,7 @@ public class Show extends RPCRequest {
     public static final String KEY_MAIN_FIELD_4 = "mainField4";
     public static final String KEY_STATUS_BAR = "statusBar";
     /**
-     * @since SmartDeviceLink 1.0.0
+     * SmartDeviceLink 1.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
@@ -303,7 +303,7 @@ public class Show extends RPCRequest {
      *
      * @return String -a String value representing the text displayed on the
      * first display line of the second page
-     * @since SmartDeviceLink 2.0
+     * SmartDeviceLink 2.0
      */
     public String getMainField3() {
         return getString(KEY_MAIN_FIELD_3);
@@ -325,7 +325,7 @@ public class Show extends RPCRequest {
      *                   parameter is ignored</li>
      *                   <li>Maxlength = 500</li>
      *                   </ul>
-     * @since SmartDeviceLink 2.0
+     *  SmartDeviceLink 2.0
      */
     public Show setMainField3(String mainField3) {
         setParameters(KEY_MAIN_FIELD_3, mainField3);
@@ -337,7 +337,7 @@ public class Show extends RPCRequest {
      *
      * @return String -a String value representing the text displayed on the
      * first display line of the second page
-     * @since SmartDeviceLink 2.0
+     *  SmartDeviceLink 2.0
      */
     public String getMainField4() {
         return getString(KEY_MAIN_FIELD_4);
@@ -359,7 +359,7 @@ public class Show extends RPCRequest {
      *                   parameter is ignored</li>
      *                   <li>Maxlength = 500</li>
      *                   </ul>
-     * @since SmartDeviceLink 2.0
+     *  SmartDeviceLink 2.0
      */
     public Show setMainField4(String mainField4) {
         setParameters(KEY_MAIN_FIELD_4, mainField4);
@@ -434,7 +434,7 @@ public class Show extends RPCRequest {
      * the module's capabilities. If this text is set, any automatic media clock updates
      * previously set with SetMediaClockTimer will be stopped.
      * {"string_min_length": 0, "string_max_length": 500}
-     * @since SmartDeviceLink 1.0.0
+     *  SmartDeviceLink 1.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
@@ -449,7 +449,7 @@ public class Show extends RPCRequest {
      * the module's capabilities. If this text is set, any automatic media clock updates
      * previously set with SetMediaClockTimer will be stopped.
      * {"string_min_length": 0, "string_max_length": 500}
-     * @since SmartDeviceLink 1.0.0
+     *  SmartDeviceLink 1.0.0
      * @deprecated in SmartDeviceLink 7.1.0
      */
     @Deprecated
@@ -491,7 +491,7 @@ public class Show extends RPCRequest {
      *                <p></p>
      *                <b>Notes: </b>If omitted on supported displays, the displayed
      *                graphic shall not change
-     * @since SmartDeviceLink 2.0
+     * SmartDeviceLink 2.0
      */
     public Show setGraphic(Image graphic) {
         setParameters(KEY_GRAPHIC, graphic);
@@ -503,7 +503,7 @@ public class Show extends RPCRequest {
      *
      * @return Image -the value representing the image shown on supported
      * displays
-     * @since SmartDeviceLink 2.0
+     * SmartDeviceLink 2.0
      */
     public Image getGraphic() {
         return (Image) getObject(Image.class, KEY_GRAPHIC);
@@ -526,7 +526,7 @@ public class Show extends RPCRequest {
      *
      * @return List<SoftButton> -a List value representing the Soft buttons
      * defined by the App
-     * @since SmartDeviceLink 2.0
+     * SmartDeviceLink 2.0
      */
     @SuppressWarnings("unchecked")
     public List<SoftButton> getSoftButtons() {
@@ -546,7 +546,7 @@ public class Show extends RPCRequest {
      *                    <li>Array Minsize: 0</li>
      *                    <li>Array Maxsize: 8</li>
      *                    </ul>
-     * @since SmartDeviceLink 2.0
+     * SmartDeviceLink 2.0
      */
     public Show setSoftButtons(List<SoftButton> softButtons) {
         setParameters(KEY_SOFT_BUTTONS, softButtons);
@@ -558,7 +558,7 @@ public class Show extends RPCRequest {
      *
      * @return List<String> - a List value representing the Custom presets
      * defined by the App
-     * @since SmartDeviceLink 2.0
+     * SmartDeviceLink 2.0
      */
     @SuppressWarnings("unchecked")
     public List<String> getCustomPresets() {
@@ -576,7 +576,7 @@ public class Show extends RPCRequest {
      *                      <li>Array Minsize: 0</li>
      *                      <li>Array Maxsize: 6</li>
      *                      </ul>
-     * @since SmartDeviceLink 2.0
+     * SmartDeviceLink 2.0
      */
     public Show setCustomPresets(List<String> customPresets) {
         setParameters(KEY_CUSTOM_PRESETS, customPresets);
@@ -589,7 +589,7 @@ public class Show extends RPCRequest {
      * @param metadataTags A Struct containing metadata pertaining to the main text fields
      *                     <p></p>
      *                     <ul>
-     * @since SmartDeviceLink 4.5.0
+     *  SmartDeviceLink 4.5.0
      */
     public Show setMetadataTags(MetadataTags metadataTags) {
         setParameters(KEY_METADATA_TAGS, metadataTags);
@@ -602,7 +602,7 @@ public class Show extends RPCRequest {
      * @return metadataTags - App defined metadata information. See MetadataTags. Uses mainField1, mainField2, mainField3, mainField4.
      * If omitted on supported displays, the currently set metadata tags will not change.
      * If any text field contains no tags or the none tag, the metadata tag for that textfield should be removed.
-     * @since SmartDeviceLink 4.5.0
+     *  SmartDeviceLink 4.5.0
      */
     public MetadataTags getMetadataTags() {
         return (MetadataTags) getObject(MetadataTags.class, KEY_METADATA_TAGS);
@@ -614,7 +614,7 @@ public class Show extends RPCRequest {
      * See PredefinedWindows enum.
      *
      * @param windowID A unique ID to identify the window. The value of '0' will always be the default main window on the main display and should not be used in this context as it will already be created for the app. See PredefinedWindows enum. Creating a window with an ID that is already in use will be rejected with `INVALID_ID`.
-     * @since 6.0
+     *  6.0
      */
     public Show setWindowID(Integer windowID) {
         setParameters(KEY_WINDOW_ID, windowID);
@@ -634,7 +634,7 @@ public class Show extends RPCRequest {
      * Gets the templateConfiguration.
      *
      * @return TemplateConfiguration
-     * @since 6.0
+     *  6.0
      */
     public TemplateConfiguration getTemplateConfiguration() {
         return (TemplateConfiguration) getObject(TemplateConfiguration.class, KEY_TEMPLATE_CONFIGURATION);
@@ -660,7 +660,7 @@ public class Show extends RPCRequest {
      *                      <li>Minlength: 0</li>
      *                      <li>Maxlength: 100</li>
      *                      </ul>
-     * @since SmartDeviceLink 6.0.0
+     * SmartDeviceLink 6.0.0
      */
     public Show setTemplateTitle(String templateTitle) {
         setParameters(KEY_TEMPLATE_TITLE, templateTitle);
@@ -672,7 +672,7 @@ public class Show extends RPCRequest {
      * How this will be displayed is dependent on the OEM design and implementation of the template.
      *
      * @return templateTitle - String value that represents the title of the new template that will be displayed
-     * @since SmartDeviceLink 6.0.0
+     * SmartDeviceLink 6.0.0
      */
     public String getTemplateTitle() {
         return getString(KEY_TEMPLATE_TITLE);
